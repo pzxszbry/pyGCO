@@ -68,5 +68,6 @@ rm:
 	rm -f *.o *.so gco_source/*.o *.zip test_wrapper
 
 download:
-	wget -N -O gco-v3.0.zip http://vision.csd.uwo.ca/code/gco-v3.0.zip
+	#wget -N -O gco-v3.0.zip http://vision.csd.uwo.ca/code/gco-v3.0.zip
+	wget -N -O gco-v3.0.zip http://mouse.cs.uwaterloo.ca/code/gco-v3.0.zip
 	unzip -o gco-v3.0.zip -d  ./gco_source
